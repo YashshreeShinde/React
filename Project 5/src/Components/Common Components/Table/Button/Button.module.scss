@@ -1,0 +1,12 @@
+.button{
+    width:4rem;
+    height:2rem;
+    margin:0.1rem;
+
+    &.primary{
+        background-color: lightblue;
+    }
+    &.danger{
+        background-color: lightcoral;
+    }
+}
