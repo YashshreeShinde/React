@@ -1,0 +1,27 @@
+.form{
+    align-self: center;
+    padding:2rem;
+    color:var(--primary-font-color);
+    
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        color:black
+    }
+    
+    .center{
+        padding: 0.50rem;
+        display: block;
+        text-align: center;
+        color:black;
+        
+    }
+    .sign-up{
+
+       background-color: lightblue;
+       width:30%;
+       align-self: center;
+       margin:-1rem 0 -2rem 7.5rem
+    }
+    
+}

@@ -1,0 +1,10 @@
+.sidebar-item{
+    padding:1rem;
+    border-bottom: 0.025rem solid var(--secondary-font-color);
+    text-align: center;
+    
+    .link{
+        text-decoration: none;
+        color:var(--secondary-font-color)
+    }
+}

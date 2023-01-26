@@ -1,0 +1,25 @@
+import {
+    useLocation,
+    useNavigate,
+    useParams,
+    useRoutes,
+
+  } from "react-router-dom";
+
+  export const withRouter = (Component:any) =>  {
+    function ComponentWithRouterProp(props:any) {
+      let location = useLocation();
+      let navigate = useNavigate();
+      let params = useParams();
+
+      return (
+        <Component
+          {...props}
+          router={{ location, navigate, params }}
+        />
+      );
+    }
+    return ComponentWithRouterProp;
+  }
+
+

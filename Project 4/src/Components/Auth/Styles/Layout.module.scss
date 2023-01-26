@@ -1,0 +1,19 @@
+
+.login-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;    
+    align-items: center;
+    h2 {
+        padding:1rem;
+    }
+    .layout{
+        display: flex;
+        align-items: center;
+        background-color:var(--primary-header-color);  
+        border:0.050rem solid var(--primary-font-color);
+        box-shadow: 5px 5px 5px 5px var(--primary-font-color);
+    }
+
+}
