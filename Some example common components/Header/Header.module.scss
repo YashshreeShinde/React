@@ -1,0 +1,39 @@
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding:1.2rem;
+    border-bottom:1px solid var(--primary-font-color);
+    background-color: var(--primary-bg-color);
+
+    .nav-links{
+        display: flex;
+        .link{
+            text-decoration: none;
+        }
+        
+     
+        
+    }
+    
+    span,.title{
+        cursor: pointer;
+        color:var(--primary-font-color);
+        padding: 1rem;
+        text-decoration: none;  
+        font-weight: 500;
+        font-size: 1.2rem;       
+    }
+    .title{
+        font-weight: 800;
+    }
+    
+    // .white{
+    //     // width:1rem;
+    //     background-color: aliceblue !important
+
+    // }
+    // .pink{
+    //     background-color: azure;
+    // }
+}
