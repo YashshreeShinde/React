@@ -1,0 +1,20 @@
+
+.login-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;    
+    align-items: center;
+    background-color:var(--secondary-bg-color); 
+    h2 {
+        padding:1rem;
+    }
+    .layout{
+        display: flex;
+        align-items: center;
+        background-color:var(--primary-header-color);  
+        padding:2rem;
+        border:0.050rem solid var(--secondary-font-color);
+    }
+
+}

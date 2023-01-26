@@ -1,0 +1,37 @@
+.label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 0.20rem;
+    color:var(--primary-font-color)
+  }
+  
+  .label{
+    font-size: 1rem;
+  }
+  .input,.textarea
+   {
+    display: block;
+    width: 20rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.50rem; 
+  }
+  .select{
+    display: block;
+    width: 22rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.50rem; 
+
+  }
+  
+  .form-control {
+    margin-bottom: 0.50rem;
+  }
+  
+  .error {
+    color: var(--secondary-font-color);
+    margin-bottom: 0.50rem;
+  }
