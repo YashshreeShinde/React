@@ -1,0 +1,9 @@
+.item_container
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}

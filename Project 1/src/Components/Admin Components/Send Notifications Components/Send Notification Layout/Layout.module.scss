@@ -1,0 +1,18 @@
+.send-notification-container
+{
+    // flex:1;
+    display: flex;
+    // min-height: 100vh;    
+    overflow: hidden;
+    .sideBar{
+        flex:2;
+        background-color: black;
+        border-right: 1rem solid;  
+    }
+    .send-message{
+        flex:4;
+        overflow: hidden;
+     
+       
+    }
+}

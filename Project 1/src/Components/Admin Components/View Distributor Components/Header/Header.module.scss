@@ -1,0 +1,19 @@
+.distributor-header
+{ 
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color:var(--secondary-header-color);
+        
+    .add-distributor-btn{
+        background-color:var(--primary-button-color);
+        // padding:0.20rem;
+        margin-right: 1rem;
+        width:6rem;
+        cursor: pointer;     
+    }
+}

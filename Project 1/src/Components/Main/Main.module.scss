@@ -1,0 +1,18 @@
+.success,.error{
+    position: fixed;
+    right:0;
+    top:4rem;
+    width:20rem;
+    padding:1rem;
+    color:var(--primary-font-color);
+}
+.success{
+    background-color: var(--secondary-font-color);
+}
+.error{
+    background-color: var(--danger);    
+}
+main{
+    width:100%;
+    min-height: 100vh;
+}

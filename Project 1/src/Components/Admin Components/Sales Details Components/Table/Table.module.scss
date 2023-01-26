@@ -1,0 +1,16 @@
+.table-container
+{
+    margin:0 2rem;
+
+    table,td,th{
+        border:1px solid;
+    }
+    th{
+        position: sticky;
+        top:0;
+        background-color: var(--primary-button-color);
+        // color:var(--primary-font-color)
+    }
+    
+    
+}

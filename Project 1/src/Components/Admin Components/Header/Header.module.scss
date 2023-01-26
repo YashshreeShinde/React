@@ -1,0 +1,15 @@
+.header_container
+{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    border:1px solid;
+    background-color: var(--primary-header-color);
+    
+    span{
+        padding:1rem;
+        cursor: pointer;
+        color:var(--primary-font-color);
+
+    }
+}
