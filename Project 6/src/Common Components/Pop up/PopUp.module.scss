@@ -1,0 +1,17 @@
+.success,.error{
+    position: fixed;
+    right:0;
+    top:4rem;
+    box-shadow: 5px 5px 5px 5px black;
+    width:10rem;
+    padding:1rem;
+    color:black;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color:white
+}
+.error{
+    background-color: lightcoral;    
+}

@@ -1,0 +1,23 @@
+
+.login-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;  
+    background-color:var(--secondary-font-color); 
+    h2 {
+        padding:2rem;
+        
+    }
+    .layout{
+        box-shadow: 5px 5px 5px 5px #333;
+        margin:1rem 0;
+        width:30%;
+        height:44rem;
+        align-items: center;
+        padding:2rem;
+        color:"white";
+        border:0.050rem solid var(--secondary-font-color);
+    }
+
+}
