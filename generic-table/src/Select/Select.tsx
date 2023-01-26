@@ -12,8 +12,8 @@ const Select = ({
     onChange
 }: any) => {
     return (
-        <span>
-            <label className={styles["label"]} htmlFor={label + name}>{label}</label>
+        <>
+            {/* {label && <label className={styles["label"]} htmlFor={label + name}>{label}</label>} */}
             <select  className={styles["select"]}
                 id={label + name}
                 name={name}
@@ -27,7 +27,7 @@ const Select = ({
                     </option>
                 ))}
             </select>
-        </span>
+        </>
     );
 };
 export default Select;

@@ -1,6 +1,6 @@
 export interface ISelectProps {
     type: "select";
-    label: string;
+    label?: string;
     name: string;
     defaultValue?: string;
     options: IOptions[];

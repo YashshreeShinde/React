@@ -18,6 +18,7 @@ export const tableStyle:any={
      "position":"fixed",
      "bottom":"4rem",
      "margin":"1rem",
+     "alignSelf":"end"
     }
    
     

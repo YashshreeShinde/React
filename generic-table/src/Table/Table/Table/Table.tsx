@@ -1,17 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Pagination from "../Pagination/Pagination";
 import { ActionsMap } from "./ActionsMap";
 import { tableStyle } from "./TableStyles";
+import { PopUpContext } from './../../../Pop up/PopUpProvider';
 
 const Table = ({tableProps,tableStyles={tableStyle},paginate,paginationProps}: any) => {
   const { tableAttributes:{columns, actions},tableData, }=tableProps
  
-  // const tableStyles=tableStyle;
   const tstyles = {
     display: "grid",
     gridTemplateColumns: `repeat(${columns.length+1},1fr)`,
-
-   
   };
 
   let actionElements: any;
@@ -22,7 +20,7 @@ const Table = ({tableProps,tableStyles={tableStyle},paginate,paginationProps}: a
       acc = acc[curr];
       return acc;
     }, item);
-    return value;
+    return `${value}`;
   };
 
   return (
@@ -30,15 +28,15 @@ const Table = ({tableProps,tableStyles={tableStyle},paginate,paginationProps}: a
      
       <div style={tableStyles}>
         <div>
-        <div style={tstyles}>
-          {columns?.map((c: any,index:number) => {
-            return (
-              <span key={index} style={tableStyles["thead"]}>
-                {c.displayName}
-              </span>
-            );
-          })}
-        </div>
+          <div style={tstyles}>
+            {columns?.map((c: any,index:number) => {
+              return (
+                <span key={index} style={tableStyles["thead"]}>
+                  {c.displayName}
+                </span>
+              );
+            })}
+          </div>
         {tableData?.map((item: any) => {
           return (
             <div key={item.id} style={tstyles}>
@@ -49,15 +47,15 @@ const Table = ({tableProps,tableStyles={tableStyle},paginate,paginationProps}: a
                 } else {
                   actionElements = actions.map((action: any,index:number) => {
                     const Field = ActionsMap[action.type];
-                    return <Field {...action} data={item} key={index} 
-                    // actionStyles={action.actionStyles}/>
-                    />
+
+                    return <Field {...action} data={item} key={index} actionstyles={action.actionstyles} />
                   });
                   return <span style={tableStyles["tcell"]} key={index}>{actionElements}</span>;        
                 }               
               })}
               
             </div>
+
           );
         })}
       </div>
