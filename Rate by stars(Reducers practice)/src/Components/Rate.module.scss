@@ -1,0 +1,33 @@
+.container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .star{
+        font-size: 8rem;
+        padding:1rem;
+    }
+    .btnContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .btn{
+            width:8rem;
+            padding:1rem;
+            margin: 1rem;
+            background-color:black;
+            color:whitesmoke;
+            border:none;
+            box-shadow: 1px 1px 1px 1px orange;
+        }
+    }
+
+    span{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+    }
+}
