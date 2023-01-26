@@ -1,0 +1,32 @@
+.background{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba($color: #000000, $alpha: 0.63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+    .content{
+        width: auto;
+        height: auto;
+        padding: 4rem;
+        background-color: var(--primary-bg-color);
+        color: var(--primary-font-color);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: 5px 5px 5px 5px var(--primary-font-color);
+
+        
+    }
+
+}

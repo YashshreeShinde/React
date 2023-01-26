@@ -1,0 +1,17 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    .table{
+        // position: relative;
+        // top:2rem;
+        align-self: center;
+    }
+    
+}
+.add-button{
+    display: flex;
+    justify-content: end;
+    margin-right: 4rem;
+    position: relative;
+    top:4rem;
+}

@@ -1,0 +1,16 @@
+.success,.error{
+    position: fixed;
+    right:0;
+    top:4rem;
+    box-shadow: 5px 5px 5px 5px var(--primary-bg-color);
+    width:10rem;
+    padding:1rem;
+    color:var(--secondary-font-color);
+    text-align: center;
+}
+.success{
+    background-color: rgb(103, 175, 178);
+}
+.error{
+    background-color: var(--danger);    
+}

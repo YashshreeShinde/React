@@ -1,0 +1,29 @@
+export const manageData=[
+    {
+        title:"Customer",
+        link:"customer"
+    },{
+        title:"Users",
+        link:"users"
+    },
+    {
+        title:"HSN",
+        link:"HSN"
+    },
+    {
+        title:"Material",
+        link:"material"
+    },
+    {
+        title:"Furnance",
+        link:"furnace"
+    },
+    {
+        title:"Storage",
+        link:"storage"
+    },
+    {
+        title:"Unit",
+        link:"unit"
+    }
+]
